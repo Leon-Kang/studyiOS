@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  基于AFN天气请求
+//
+//  Created by 康梁 on 15/12/20.
+//  Copyright © 2015年 kl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kXMLRequestURLStr @"http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName?theCityName=59287"
+
+#define kJSONRequestURLStr @"https://alpha-api.app.net/stream/0/posts/stream/global"
+
+#define kTitleOfXMLRequest @"XML 数据请求"
+#define kTitleOfJSONRequest @"JSON 数据请求"
+
+#define kAvatarImageStr @"avatarImageStr"
+#define kName @"name"
+#define kText @"text"
+#define kLink @"link"
+#define kCreatedAt @"createdAt"
+
+#define kApplication [UIApplication sharedApplication] 
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

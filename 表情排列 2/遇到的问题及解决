@@ -1,0 +1,6 @@
+遇到的问题
+在初始界面重新排列时，总是空出两个UIImageView的空当
+利用打印 NSLog(@"%@",child.class");查询后得知多出了两个名为_UILayoutGuide的控件对象占用了位置。
+在排除了UISegmentedCountrol后没有注意到这两个控件。
+以后在不确定是否存在透明控件时，应当打印class以查看。
+现在，研究一下_UILayoutGuide是什么········。
