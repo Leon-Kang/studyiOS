@@ -277,7 +277,7 @@
 				TargetAttributes = {
 					6BB9425C1C254C1E00099319 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 9LX3DSVSDD;
+						DevelopmentTeam = 9MTLC2PZJ9;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -625,6 +625,7 @@
 				6BB942761C254C1E00099319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BB942A11C254C8E00099319 /* Build configuration list for PBXNativeTarget "worker Extension" */ = {
 			isa = XCConfigurationList;
@@ -633,6 +634,7 @@
 				6BB942A31C254C8E00099319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BB942A51C254C8E00099319 /* Build configuration list for PBXNativeTarget "worker" */ = {
 			isa = XCConfigurationList;
@@ -641,6 +643,7 @@
 				6BB942A71C254C8E00099319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
