@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftUIAlertController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DD7-Xr-8Mg">
+                                <rect key="frame" x="221" y="28" width="159" height="29"/>
+                                <segments>
+                                    <segment title="AlertView"/>
+                                    <segment title="AlertSheet"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ome-nf-NHL">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="alertAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oop-Dl-xt5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="nil" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQy-LN-dIV">
+                                <rect key="frame" x="144" y="444" width="311" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ome-nf-NHL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="49j-7G-Ot7"/>
+                            <constraint firstItem="oQy-LN-dIV" firstAttribute="centerY" secondItem="Ome-nf-NHL" secondAttribute="centerY" id="FbN-5z-ZOw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oQy-LN-dIV" secondAttribute="bottom" constant="135" id="Mw8-We-jUN"/>
+                            <constraint firstItem="oQy-LN-dIV" firstAttribute="top" secondItem="Ome-nf-NHL" secondAttribute="bottom" constant="129" id="S8K-4n-SdY"/>
+                            <constraint firstItem="DD7-Xr-8Mg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-258" id="SGg-Yj-xtE"/>
+                            <constraint firstItem="Ome-nf-NHL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UP5-pW-46h"/>
+                            <constraint firstItem="oQy-LN-dIV" firstAttribute="centerX" secondItem="Ome-nf-NHL" secondAttribute="centerX" id="nml-Df-0W4"/>
+                            <constraint firstItem="DD7-Xr-8Mg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pdg-uT-XUC"/>
+                            <constraint firstItem="oQy-LN-dIV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pwR-zw-B5u"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FbN-5z-ZOw"/>
+                                <exclude reference="S8K-4n-SdY"/>
+                                <exclude reference="nml-Df-0W4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="segment" destination="DD7-Xr-8Mg" id="mHS-fH-BAb"/>
+                        <outlet property="textLabel" destination="oQy-LN-dIV" id="4Ds-dt-Cvs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="339"/>
+        </scene>
+    </scenes>
+</document>
