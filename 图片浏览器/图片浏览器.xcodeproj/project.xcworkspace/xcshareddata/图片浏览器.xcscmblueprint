@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4142E09443874C18B60E2BC2960362273F1E5FEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "495F4056D891DBDB4655FBF2AB3B04A60E169934" : 0,
+    "4142E09443874C18B60E2BC2960362273F1E5FEB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A7130B62-F6B8-4A6A-9E35-58A650C1A65E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "495F4056D891DBDB4655FBF2AB3B04A60E169934" : "self-study",
+    "4142E09443874C18B60E2BC2960362273F1E5FEB" : "studyA\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "图片浏览器",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "图片浏览器\/图片浏览器.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Leon-Kang\/studyA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4142E09443874C18B60E2BC2960362273F1E5FEB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/Leon-Kang\/self-study.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "495F4056D891DBDB4655FBF2AB3B04A60E169934"
+    }
+  ]
+}

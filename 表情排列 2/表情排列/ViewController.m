@@ -51,7 +51,7 @@
         CGFloat x = oneX + col * (kImgWH + margin);
         // 行数（row）决定了y
         CGFloat y = oneY + row * (kImgWH + margin);
-//        
+        
         if (add) {
             // 添加新的imageView
             int no = i % 9;  // no == [0 ,8]
@@ -68,7 +68,7 @@
             CGRect tempF = child.frame;
             tempF.origin = CGPointMake(x, y);
             child.frame = tempF;
-//            NSLog(@"%@",child.class);
+
         }
     }
 }
@@ -80,11 +80,6 @@
     index.image = [UIImage imageNamed:icon];
     index.frame = CGRectMake(x, y, kImgWH, kImgWH);
     [self.view addSubview:index];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark 更改列数

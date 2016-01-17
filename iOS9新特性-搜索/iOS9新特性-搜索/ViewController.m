@@ -36,11 +36,6 @@
     [self saveFriend];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (NSArray *)tableDataSource {
     int i = 0;
     NSArray *nameArray = @[@"1", @"2", @"3", @"4"];

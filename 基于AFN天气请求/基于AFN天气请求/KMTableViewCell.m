@@ -81,15 +81,4 @@ static CGFloat widthOfLabel;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 @end

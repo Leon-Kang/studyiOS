@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B1C46CE1B987A0400A0516C /* 遇到的问题及解决 in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C46CD1B987A0400A0516C /* 遇到的问题及解决 */; };
 		6BC643AD1B97F2AD003D5EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC643AC1B97F2AD003D5EC6 /* main.m */; };
 		6BC643B01B97F2AD003D5EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC643AF1B97F2AD003D5EC6 /* AppDelegate.m */; };
 		6BC643B31B97F2AD003D5EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC643B21B97F2AD003D5EC6 /* ViewController.m */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B1C46CD1B987A0400A0516C /* 遇到的问题及解决 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "遇到的问题及解决"; path = "表情排列/遇到的问题及解决"; sourceTree = "<group>"; };
 		6BC643A71B97F2AD003D5EC6 /* 表情排列.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情排列.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC643AB1B97F2AD003D5EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BC643AC1B97F2AD003D5EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				6BC643A91B97F2AD003D5EC6 /* 表情排列 */,
 				6BC643C31B97F2AE003D5EC6 /* 表情排列Tests */,
 				6BC643A81B97F2AD003D5EC6 /* Products */,
-				6B1C46CD1B987A0400A0516C /* 遇到的问题及解决 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +212,7 @@
 				TargetAttributes = {
 					6BC643A61B97F2AD003D5EC6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9MTLC2PZJ9;
 					};
 					6BC643BF1B97F2AE003D5EC6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -250,7 +248,6 @@
 				6BC643FD1B97FF28003D5EC6 /* index8.jpg in Resources */,
 				6BC643F71B97FF28003D5EC6 /* index2.jpg in Resources */,
 				6BC643FE1B97FF28003D5EC6 /* index9.jpg in Resources */,
-				6B1C46CE1B987A0400A0516C /* 遇到的问题及解决 in Resources */,
 				6BC643F81B97FF28003D5EC6 /* index3.jpg in Resources */,
 				6BC643FF1B97FF28003D5EC6 /* index10.jpg in Resources */,
 				6BC643FC1B97FF28003D5EC6 /* index7.jpg in Resources */,
@@ -407,8 +404,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "表情排列/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.icon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -417,8 +416,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "表情排列/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.icon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

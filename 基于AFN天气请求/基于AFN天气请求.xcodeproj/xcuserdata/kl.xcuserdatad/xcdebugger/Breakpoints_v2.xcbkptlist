@@ -20,124 +20,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
-            timestampString = "472398384.076706"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "-convertXMLParserToDictionary:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
             timestampString = "472398513.772007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
             endingLineNumber = "67"
             landmarkName = "-convertXMLParserToDictionary:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
-            timestampString = "472398804.85808"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "-sendRequest:"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[XMLRequestViewController sendRequest:]"
-                  moduleName = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kl/Desktop/private%20study/%E5%9F%BA%E4%BA%8EAFN%E5%A4%A9%E6%B0%94%E8%AF%B7%E6%B1%82/%E5%9F%BA%E4%BA%8EAFN%E5%A4%A9%E6%B0%94%E8%AF%B7%E6%B1%82/XMLRequestViewController.m"
-                  timestampString = "472399135.802609"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "139"
-                  endingLineNumber = "139"
-                  offsetFromSymbolStart = "212">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__40-[XMLRequestViewController sendRequest:]_block_invoke_2"
-                  moduleName = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kl/Desktop/private%20study/%E5%9F%BA%E4%BA%8EAFN%E5%A4%A9%E6%B0%94%E8%AF%B7%E6%B1%82/%E5%9F%BA%E4%BA%8EAFN%E5%A4%A9%E6%B0%94%E8%AF%B7%E6%B1%82/XMLRequestViewController.m"
-                  timestampString = "472399135.802783"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "139"
-                  endingLineNumber = "139"
-                  offsetFromSymbolStart = "91">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
-            timestampString = "472398909.256974"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "-sendRequest:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
-            timestampString = "472398912.745264"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "-sendRequest:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x57fa;&#x4e8e;AFN&#x5929;&#x6c14;&#x8bf7;&#x6c42;/XMLRequestViewController.m"
-            timestampString = "472398945.404473"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "-sendRequest:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
