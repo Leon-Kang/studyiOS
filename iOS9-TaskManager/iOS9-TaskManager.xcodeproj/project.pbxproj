@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8D6A111C609D4200AD7F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D6A101C609D4200AD7F7E /* main.m */; };
+		6B8D6A141C609D4200AD7F7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D6A131C609D4200AD7F7E /* AppDelegate.m */; };
+		6B8D6A171C609D4200AD7F7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D6A161C609D4200AD7F7E /* ViewController.m */; };
+		6B8D6A1A1C609D4200AD7F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D6A181C609D4200AD7F7E /* Main.storyboard */; };
+		6B8D6A1C1C609D4200AD7F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D6A1B1C609D4200AD7F7E /* Assets.xcassets */; };
+		6B8D6A1F1C609D4200AD7F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D6A1D1C609D4200AD7F7E /* LaunchScreen.storyboard */; };
+		6B8D6A271C609F1800AD7F7E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D6A261C609F1800AD7F7E /* Podfile */; };
+		CF7BB5B473DB5E0CEDD9EA4B /* libPods-iOS9-TaskManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECC1F897535501A59A78B2A /* libPods-iOS9-TaskManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B8D6A0C1C609D4200AD7F7E /* iOS9-TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS9-TaskManager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8D6A101C609D4200AD7F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8D6A121C609D4200AD7F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8D6A131C609D4200AD7F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8D6A151C609D4200AD7F7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B8D6A161C609D4200AD7F7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B8D6A191C609D4200AD7F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B8D6A1B1C609D4200AD7F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8D6A1E1C609D4200AD7F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8D6A201C609D4200AD7F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8D6A261C609F1800AD7F7E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		A7138B97CDD82F42DB6CB9F0 /* Pods-iOS9-TaskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS9-TaskManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS9-TaskManager/Pods-iOS9-TaskManager.debug.xcconfig"; sourceTree = "<group>"; };
+		AECC1F897535501A59A78B2A /* libPods-iOS9-TaskManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS9-TaskManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5E12E9E13AD712675FB60F /* Pods-iOS9-TaskManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS9-TaskManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS9-TaskManager/Pods-iOS9-TaskManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8D6A091C609D4200AD7F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7BB5B473DB5E0CEDD9EA4B /* libPods-iOS9-TaskManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B32E036FB687686E179469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AECC1F897535501A59A78B2A /* libPods-iOS9-TaskManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8D6A031C609D4200AD7F7E = {
+			isa = PBXGroup;
+			children = (
+				6B8D6A0E1C609D4200AD7F7E /* iOS9-TaskManager */,
+				6B8D6A0D1C609D4200AD7F7E /* Products */,
+				B48BA2E1B510C570E2E0B990 /* Pods */,
+				50B32E036FB687686E179469 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8D6A0D1C609D4200AD7F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D6A0C1C609D4200AD7F7E /* iOS9-TaskManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8D6A0E1C609D4200AD7F7E /* iOS9-TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D6A121C609D4200AD7F7E /* AppDelegate.h */,
+				6B8D6A131C609D4200AD7F7E /* AppDelegate.m */,
+				6B8D6A151C609D4200AD7F7E /* ViewController.h */,
+				6B8D6A161C609D4200AD7F7E /* ViewController.m */,
+				6B8D6A181C609D4200AD7F7E /* Main.storyboard */,
+				6B8D6A1B1C609D4200AD7F7E /* Assets.xcassets */,
+				6B8D6A1D1C609D4200AD7F7E /* LaunchScreen.storyboard */,
+				6B8D6A201C609D4200AD7F7E /* Info.plist */,
+				6B8D6A261C609F1800AD7F7E /* Podfile */,
+				6B8D6A0F1C609D4200AD7F7E /* Supporting Files */,
+			);
+			path = "iOS9-TaskManager";
+			sourceTree = "<group>";
+		};
+		6B8D6A0F1C609D4200AD7F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D6A101C609D4200AD7F7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48BA2E1B510C570E2E0B990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7138B97CDD82F42DB6CB9F0 /* Pods-iOS9-TaskManager.debug.xcconfig */,
+				EF5E12E9E13AD712675FB60F /* Pods-iOS9-TaskManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8D6A0B1C609D4200AD7F7E /* iOS9-TaskManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8D6A231C609D4200AD7F7E /* Build configuration list for PBXNativeTarget "iOS9-TaskManager" */;
+			buildPhases = (
+				9ED9C7DA1B58DE22C43AC40A /* Check Pods Manifest.lock */,
+				6B8D6A081C609D4200AD7F7E /* Sources */,
+				6B8D6A091C609D4200AD7F7E /* Frameworks */,
+				6B8D6A0A1C609D4200AD7F7E /* Resources */,
+				AD6454272B3DC775C2BAD88A /* Embed Pods Frameworks */,
+				F92C933937E892B76C4CB3DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS9-TaskManager";
+			productName = "iOS9-TaskManager";
+			productReference = 6B8D6A0C1C609D4200AD7F7E /* iOS9-TaskManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8D6A041C609D4200AD7F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeonKang;
+				TargetAttributes = {
+					6B8D6A0B1C609D4200AD7F7E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6B8D6A071C609D4200AD7F7E /* Build configuration list for PBXProject "iOS9-TaskManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8D6A031C609D4200AD7F7E;
+			productRefGroup = 6B8D6A0D1C609D4200AD7F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8D6A0B1C609D4200AD7F7E /* iOS9-TaskManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8D6A0A1C609D4200AD7F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8D6A1F1C609D4200AD7F7E /* LaunchScreen.storyboard in Resources */,
+				6B8D6A1C1C609D4200AD7F7E /* Assets.xcassets in Resources */,
+				6B8D6A271C609F1800AD7F7E /* Podfile in Resources */,
+				6B8D6A1A1C609D4200AD7F7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ED9C7DA1B58DE22C43AC40A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6454272B3DC775C2BAD88A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS9-TaskManager/Pods-iOS9-TaskManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92C933937E892B76C4CB3DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS9-TaskManager/Pods-iOS9-TaskManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8D6A081C609D4200AD7F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8D6A171C609D4200AD7F7E /* ViewController.m in Sources */,
+				6B8D6A141C609D4200AD7F7E /* AppDelegate.m in Sources */,
+				6B8D6A111C609D4200AD7F7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B8D6A181C609D4200AD7F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8D6A191C609D4200AD7F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8D6A1D1C609D4200AD7F7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8D6A1E1C609D4200AD7F7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8D6A211C609D4200AD7F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B8D6A221C609D4200AD7F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8D6A241C609D4200AD7F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7138B97CDD82F42DB6CB9F0 /* Pods-iOS9-TaskManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS9-TaskManager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kl.iOS9-TaskManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B8D6A251C609D4200AD7F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5E12E9E13AD712675FB60F /* Pods-iOS9-TaskManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS9-TaskManager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kl.iOS9-TaskManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8D6A071C609D4200AD7F7E /* Build configuration list for PBXProject "iOS9-TaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8D6A211C609D4200AD7F7E /* Debug */,
+				6B8D6A221C609D4200AD7F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8D6A231C609D4200AD7F7E /* Build configuration list for PBXNativeTarget "iOS9-TaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8D6A241C609D4200AD7F7E /* Debug */,
+				6B8D6A251C609D4200AD7F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8D6A041C609D4200AD7F7E /* Project object */;
+}
