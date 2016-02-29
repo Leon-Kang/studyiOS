@@ -1,0 +1,6 @@
+platform :ios, ‘8.0’
+target :KLPaymentDemo do
+pod 'RMStore', '~>0.7.1'
+pod 'Adjust',  ‘~>4.5.4’
+pod 'MJApiClient', :git => 'https://github.com/mobilejazz/MJApiClient.git', :tag => '0.1.2'
+end

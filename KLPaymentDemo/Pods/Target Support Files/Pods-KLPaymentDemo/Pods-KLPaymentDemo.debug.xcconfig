@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Adjust" "${PODS_ROOT}/Headers/Public/FormatterKit" "${PODS_ROOT}/Headers/Public/MJApiClient" "${PODS_ROOT}/Headers/Public/RMStore"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Adjust" -isystem "${PODS_ROOT}/Headers/Public/FormatterKit" -isystem "${PODS_ROOT}/Headers/Public/MJApiClient" -isystem "${PODS_ROOT}/Headers/Public/RMStore"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Adjust" -l"FormatterKit" -l"MJApiClient" -l"RMStore" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -weak_framework "AdSupport" -weak_framework "iAd"
+PODS_ROOT = ${SRCROOT}/Pods

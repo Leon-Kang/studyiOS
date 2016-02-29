@@ -1,0 +1,37 @@
+{
+  "name": "MJApiClient",
+  "version": "0.1.2",
+  "summary": "User friendly API client on top of AFNetworking",
+  "description": "MJApiClient defines a simple, easy to use, intuitive and flexible API client on top of AFNetworking.",
+  "homepage": "https://github.com/mobilejazz/MJApiClient",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mobile Jazz": "info@mobilejazz.cat"
+  },
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8"
+  },
+  "social_media_url": "http://twitter.com/mobilejazz",
+  "source": {
+    "git": "https://github.com/mobilejazz/MJApiClient.git",
+    "tag": "0.1.2"
+  },
+  "source_files": [
+    "Source Code/*.{h,m}",
+    "Source Code/*/*.{h,m}"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "FormatterKit/URLRequestFormatter": [
+
+    ]
+  },
+  "requires_arc": true
+}

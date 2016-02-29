@@ -1,0 +1,1 @@
+../../../MJApiClient/Source Code/MJJSONResponseSerializer.h

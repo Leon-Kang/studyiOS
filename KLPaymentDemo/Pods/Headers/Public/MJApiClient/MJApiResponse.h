@@ -1,0 +1,1 @@
+../../../MJApiClient/Source Code/MJApiResponse.h
