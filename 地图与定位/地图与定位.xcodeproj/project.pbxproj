@@ -133,7 +133,7 @@
 				TargetAttributes = {
 					6B759FAB1C29336F0057B1E1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 9LX3DSVSDD;
+						DevelopmentTeam = 9MTLC2PZJ9;
 					};
 				};
 			};
@@ -333,6 +333,7 @@
 				6B759FC51C29336F0057B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
